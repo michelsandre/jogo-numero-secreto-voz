@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* 
+
+Cores escolhidas no site ColoHunt
+https://colorhunt.co/
+
+Roxo escuro: #363062
+Roxo claro: #4D4C7D
+Laranja: #F99417
+Branco: #F5F5F5
+
+ */
+
+:root{
+    --font-family:'Ubuntu', sans-serif;
+    --bg-color: #363062;
+    --primary-color: #F5F5F5;
+    --secondary-color:#F99417;
+    --aux-color: #4D4C7D;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 5rem;
+    text-shadow: 3px 3px 5px var(--aux-color)
+}
+h3{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+.box{
+    border: 5px solid var(--aux-color);
+    display: inline-block;
+    font-size: 8rem;
+    padding: 10px;
+    margin: 20px;
+    color: var(--secondary-color);
+}
+i {
+    color: var(--secondary-color);
+    
+}
