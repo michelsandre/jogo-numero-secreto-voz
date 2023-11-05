@@ -13,4 +13,3 @@ function gerarNumAleatorio() {
   return parseInt(Math.random() * (maiorValor - menorValor + 1) + menorValor);
 }
 
-console.log(numSecreto);
