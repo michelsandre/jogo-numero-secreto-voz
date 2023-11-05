@@ -35,7 +35,10 @@ body{
 
 h1{
     font-size: 5rem;
-    text-shadow: 3px 3px 5px var(--aux-color)
+    text-shadow: 3px 3px 5px var(--aux-color);
+}
+h2{
+    font-size: 5rem;
 }
 h3{
     font-size: 2rem;
@@ -57,4 +60,22 @@ h3{
 i {
     color: var(--secondary-color);
     
+}
+
+.btn-jogar{
+    padding: 30px 40px;
+    border: 0;
+    background-color: var(--aux-color);
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: 0.50s;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.btn-jogar:hover{
+    box-shadow: 0px 0px 40px var(--primary-color);
+    transition: 0.50s;
+    cursor: pointer;
 }

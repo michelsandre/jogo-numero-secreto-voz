@@ -19,7 +19,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.0/dist/confetti.browser.min.js"></script>
+    <script src="app/sortearNumero.js" defer></script>
+    <script src="app/reconhecimentoDeVoz.js" defer></script>
+    <script src="app/validacao.js" defer></script>
 
     <title>Jogo do Número Secreto</title>
   </head>
@@ -30,9 +33,10 @@
       <span id="maior-valor">100</span>
     </h3>
     <div id="chute" class="mensagem">
-      <div>Você disse:</div>
-      <span class="box">20</span>
+      <!-- <div>Você disse:</div>
+      <span class="box"></span>
       <div>O número secreto é maior <i class="fa-solid fa-up-long"></i></div>
+      <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button> -->
     </div>
   </body>
 </html>
