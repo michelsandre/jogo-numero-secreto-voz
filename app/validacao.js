@@ -3,6 +3,16 @@ let fimDoJogo = false;
 function verificaChuteValido(chute) {
   const numero = +chute;
 
+  if (chute == "game over") {
+    document.body.style.backgroundColor = "#000";
+    document.body.innerHTML = `
+    <h1 class="game-over">Game Over</h1>
+    <h3>Que pena, te espero na próxima</h3>`;
+
+    fimDoJogo = true;
+    return;
+  }
+
   if (chuteForInvalido(numero)) {
     chuteElem.innerHTML += `<div>Valor inválido</div>`;
     return;

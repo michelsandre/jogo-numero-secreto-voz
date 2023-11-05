@@ -12,4 +12,3 @@ maiorValorElem.textContent = maiorValor;
 function gerarNumAleatorio() {
   return parseInt(Math.random() * (maiorValor - menorValor + 1) + menorValor);
 }
-console.log(`Numero secreto: ${numSecreto}`);

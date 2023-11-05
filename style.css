@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* 
 
@@ -31,7 +32,25 @@ body{
     text-align: center;
     margin: 0;
     font-family: var(--font-family);
+    transition: 2s;
 }
+p.footer{
+    position: absolute;
+    bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--aux-color);
+    font-weight: bold;
+    
+}
+
+a{
+    color: var(--aux-color);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--secondary-color);
+}
+
 
 h1{
     font-size: 5rem;
@@ -78,4 +97,10 @@ i {
     box-shadow: 0px 0px 40px var(--primary-color);
     transition: 0.50s;
     cursor: pointer;
+}
+
+.game-over{
+    color: var(--primary-color);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 6rem;
 }
