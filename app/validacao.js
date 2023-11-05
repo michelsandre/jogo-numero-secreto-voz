@@ -28,6 +28,7 @@ function verificaChuteValido(chute) {
     <h2>Você acertou!</h2>
     <h3>O número secreto era ${numSecreto}</h3>
     <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>`;
+
     fimDoJogo = true;
     ganhouJogo();
   } else if (numero < numSecreto) {
